@@ -23,7 +23,7 @@ The instructions refer to the use of XAMPP.
 3. import the file `sql-query-function-collection.sql` from the `_DB` folder of this repo.
 4. set your database connection credentials in `db_connection.inc.php` in the `inc` folder.
 5. open the `index.php` file in your browser. You will now see all examples.
-6. look into the files `db_functions.inc.php` and `db_connection.inc.php` for more information.
+6. look into the files `db_functions.inc.php` and `examples.php` for more information.
 
 ### For use the MySQL functions
 
