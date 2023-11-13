@@ -28,4 +28,4 @@ The instructions refer to the use of XAMPP.
 ### For use the MySQL functions
 
 1. add the two files `db_functions.inc.php` and `db_connection.inc.php` to your project.
-2. use the MySQL functions. That was it! Enjoy :-)
+2. use the MySQL functions. That`s it! Enjoy :-)
