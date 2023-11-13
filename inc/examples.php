@@ -19,7 +19,7 @@ foreach($results as $result) {
   array_push($for_js, $result["Tables_in_sql-query-function-collection"]);
 }
 
-// For JavaScript - see in the console an "index.php"
+// For JavaScript - see in the console and the "index.php" file
 $for_javascript = json_encode($for_js);
 
 echo '<br><b>all_column_names_from_table</b><br>';
@@ -68,18 +68,6 @@ $id = 1;
 $columns = '`id`, `name`';
 $result = select_by_id_with_columns($db, 'softwares', $columns, $id);
 var_dump($result);
-
-// echo '<br><br><b>select_with_columns_where</b><br>';
-// $columns = '`name`, `content_page`';
-// $public = 1;
-// $where = "`public` = $public";
-// $result = select_with_columns_where($db, 'projects', $columns, $where);
-// var_dump($result);
-
-
-
-
-
 
 // all rows
 echo '<br><br><h5>all rows</h5>';
@@ -228,8 +216,6 @@ if ($result['verified'] === true) {
   // do something...
 }
 
-
-// ===============================
 $db = null;
 
 ?>
